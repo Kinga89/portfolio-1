@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar {
+    flex: 1;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  
+   ul li {
+    display: inline-block;
+    padding: 15px;
+    margin-right: 5rem;
+  }
+  
+  li {
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+.section-one {
+    display: flex;
+}
+
+
+
+.welcome-image {
+    flex: 60%;
+}
+
+.background-homepage {
+    background-image: url(../images/309295836_1164279214164100_3629959367239869499_n.jpg);
+    background-size: cover;
+    background-position: 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    clip-path: polygon(38% 0, 100% 0%, 100% 100%, 8% 100%);
+    height: 50em;
+}
+
+.welcome-text {
+    flex: 40%;
+    text-align: left;
+    margin-right: 5%;
+    margin-top: 15%;
+}
+
+.welcome-text p {
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+.welcome-h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.portfolio-h1 {
+    padding-bottom: 3%;
+    text-align: left;
+}
