@@ -1,17 +1,27 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    position: relative;
+    margin: 0;
+    flex: 1;
 }
 
 #navbar {
     flex: 1;
-    position: fixed;
     z-index: 100;
     top: 0;
     right: 0;
     min-height: 60px;
     display: flex;
     justify-content: right;
-    align-items: center;
+    align-items: left;
+    background-color: white;
   }
   
    ul li {
@@ -21,9 +31,10 @@ body {
   }
   
   li {
-    color: white;
-    font-weight: 500;
+    color: #163832;
+    font-weight: 600;
     font-size: 25px;
+    z-index: 110;
   }
 
 .section-one {
@@ -48,7 +59,7 @@ body {
 .welcome-text {
     flex: 40%;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .welcome-text p {
@@ -75,25 +86,57 @@ h2 {
     text-align: center;
     padding: 5%;
     font-size: 30px;
+    color: black;
+    margin: 0;   
 }
 
 .about-section {
     display: flex;
     flex-direction: row;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: auto;
+    margin: 0 10%;
 }
 
 .about-text {
-    flex: 1;
+    flex: 60%;
+    padding: 5%;
+    background-color: #163832;
+}
+
+.about-text p {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .about-image {
-    flex: 1;
+    flex: 40%;
 }
 
 .about-image img {
+    height: 30em;
+    width: 30em;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.card {
+    flex: 1;
+    border: red solid 3px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image,
+.card-text {
+flex: 1;
+}
+
+.card-image img {
     height: 100%;
     width: 100%;
 }
