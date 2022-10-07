@@ -124,31 +124,36 @@ h2 {
     column-gap: 5%;
     row-gap: 5%;
     padding: 0 7%;
+    position: relative;
 }
 
 
 .card {
-    flex: 1;
-    border: rgba(0, 0, 0, 0.251) solid 1px;
+    border: rgba(0, 0, 0, 0.177) solid 1px;
     border-radius: 1%;
     min-height: 300px;
-    padding: 0 20px;
     display: flex;
     flex-direction: column;
 }
 
-.card-image:hover {
-    opacity: 50%;
-}
 
 .card-image,
 .card-text {
 flex: 1;
 }
 
-.card-image img {
+.card-text {
+    padding: 0 20px;
+}
+
+.card-image video {
+    object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+.card a {
+    text-decoration: none;
 }
 
 .cta-button {
