@@ -118,17 +118,27 @@ h2 {
 }
 
 .projects-section {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 5%;
+    row-gap: 5%;
+    padding: 0 7%;
 }
 
 
 .card {
     flex: 1;
-    border: red solid 3px;
+    border: rgba(0, 0, 0, 0.251) solid 1px;
+    border-radius: 1%;
+    min-height: 300px;
     padding: 0 20px;
     display: flex;
     flex-direction: column;
+}
+
+.card-image:hover {
+    opacity: 50%;
 }
 
 .card-image,
@@ -140,3 +150,21 @@ flex: 1;
     height: 100%;
     width: 100%;
 }
+
+.cta-button {
+    background-color: white;
+    color:#163832;
+    display: inline;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    width: 200px;
+    margin: 7% auto;
+    display:block;
+  }
+
+  .cta-button:hover {
+    background-color: #163832;
+    color: white;
+  }
