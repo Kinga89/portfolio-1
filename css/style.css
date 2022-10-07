@@ -12,6 +12,7 @@ main {
     flex: 1;
 }
 
+/******** HEADER **********/
 #navbar {
     flex: 1;
     z-index: 100;
@@ -37,6 +38,33 @@ main {
     z-index: 110;
   }
 
+
+/******** FOOTER **********/
+footer {
+    background-color:#163832;
+    font-family: "Quicksand", sans-serif
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 30px 0;
+  }
+  
+  .icons-footer,
+  .icons-footer p {
+    text-align: center;
+    color: white;
+  }
+  
+  .icons-footer i {
+    padding: 15px;
+    font-size: 30px;
+  }
+
+
+/******** MAIN **********/  
 .section-one {
     display: flex;
 }
