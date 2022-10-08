@@ -130,6 +130,14 @@ h2 {
     background-color: #163832;
 }
 
+.about-text p:nth-child(3){
+    text-decoration: underline;
+}
+
+.fa-arrow-right {
+    color: white;
+}
+
 .about-text p {
     color: white;
     font-size: 18px;
@@ -146,20 +154,20 @@ h2 {
 }
 
 .projects-section {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    column-gap: 5%;
-    row-gap: 5%;
-    padding: 0 7%;
-    position: relative;
+    grid-gap: 5%;
+    padding: 0 7% 5%;
 }
 
 
 .card {
     border: rgba(0, 0, 0, 0.177) solid 1px;
     border-radius: 1%;
-    min-height: 300px;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -200,4 +208,30 @@ flex: 1;
   .cta-button:hover {
     background-color: #163832;
     color: white;
+  }
+
+  .skills-section {
+    padding-bottom: 30px;
+  }
+
+  .skill-category {
+    text-align: center;
+  }
+
+  .skill-category ul li {
+    font-size: 20px;
+    font-weight: 400;
+    background-color:#e5bda3;
+    color:white;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    width: 200px;
+    margin: 2%;
+  }
+
+  .skill-category ul li img {
+    height: 100px;
+    width: 100px;
   }
