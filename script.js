@@ -31,3 +31,25 @@ for (let i = 0; i < video.length; i++){
         video[i].pause()
         })
 }
+
+
+/* HAMBURGER MENU mobile*/
+const hamburgerOpen = document.querySelector(".fa-bars");
+const hamburgerClose = document.querySelector(".fa-times");
+const navMobile = document.querySelector(".nav-container");
+
+
+function hamburgerMenuOpen() {
+    navMobile.style.display = "flex";
+    hamburgerClose.style.display = "inline-block";
+    hamburgerOpen.style.display = "none";
+};
+
+function hamburgerMenuClose() {
+    navMobile.style.display = "none";
+    hamburgerClose.style.display = "none";
+    hamburgerOpen.style.display = "inline-block";
+};
+
+hamburgerOpen.addEventListener("click", hamburgerMenuOpen);
+hamburgerClose.addEventListener("click", hamburgerMenuClose);
