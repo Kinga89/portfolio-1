@@ -95,6 +95,10 @@ footer {
     margin-top: 8%;
 }
 
+.welcome-text img {
+    display: none;
+}
+
 .welcome-text p {
     display: inline-block;
     color: #163832;
@@ -304,10 +308,6 @@ flex: 1;
         display: none;
       }
 
-
-    
-  
-
 /******** FOOTER mobile **********/
 footer {
     background-color:#163832;
@@ -333,57 +333,75 @@ footer {
   }
 
 
-/******** MAIN **********/  
+/******** MAIN mobile **********/  
 .section-one {
     display: flex;
-    position: relative;
 }
 
 .welcome-image {
-    flex: 1;
+    flex: 60%;
 }
 
 .background-homepage {
     background-image: url(../images/309295836_1164279214164100_3629959367239869499_n.jpg);
     background-size: cover;
-    background-position: center;
+    background-position:center;
     top: 0;
     right: 0;
     bottom: 0;
-    margin: 0;
     clip-path: none;
     height: 40em;
 }
 
 .welcome-text {
-    position: absolute;
-    background-color: white;
-    opacity: 80%;
-    flex: 1;
-    margin-left: 0;
-    margin-top: 50%;
+    flex: 40%;
+    margin-left: 10%;
+    margin-top: 8%;
 }
 
 .welcome-text p {
     display: inline-block;
     color: #163832;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h1 {
     color: #163832;
 }
 
-.welcome-h1 {
-    font-size: 30px;
-    margin-bottom: 0;
-    text-align: center;
+.welcome-h1,
+.portfolio-h1 {
+    display: none;
 }
 
-.portfolio-h1 {
-    padding-bottom: 3%;
-    text-align: center;
+.welcome-text {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.765);
+    opacity: 100%;
+    flex: 1;
+    margin-left: 0;
+    margin-top: 30%;
 }
+
+
+
+.welcome-text img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    float: right;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+.welcome-text p {
+    position: relative;
+    display: inline;
+    color: #163832;
+    font-size: 18px;
+    padding-left: 5%;
+}
+
 
 h2 {
     text-align: center;
@@ -401,7 +419,7 @@ h3 {
 .about-section {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: -50px auto 0;
 }
 
 .about-text {
@@ -425,7 +443,7 @@ h3 {
 }
 
 .about-image {
-    flex: 30%;
+    flex: 40%;
 }
 
 .about-image img {
