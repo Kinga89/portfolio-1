@@ -395,13 +395,12 @@ h1 {
     text-align: center;
 }
 
-
 h2 {
+    margin-top: 10%;
     text-align: center;
     padding: 5%;
-    font-size: 30px;
+    font-size: 25px;
     color: black;
-    margin: 0;   
 }
 
 h3 {
@@ -412,13 +411,24 @@ h3 {
 .about-section {
     display: flex;
     flex-direction: column;
-    margin: -50px auto 0;
+     margin: 0;
 }
 
 .about-text {
-    flex: 70%;
+    flex: 1;
     padding: 5%;
-    background-color: #163832;
+    background-color: white;
+   
+}
+
+.about-text p,
+.fa-arrow-right {
+   color:black;
+} 
+
+.about-text p {
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .about-text p:nth-child(3){
@@ -426,28 +436,25 @@ h3 {
 }
 
 .fa-arrow-right {
-    color: white;
-}
-
-.about-text p {
-    color: white;
-    font-size: 18px;
-    font-weight: 100;
+    padding-left: 5px;
 }
 
 .about-image {
-    flex: 40%;
+    flex: 1;
+    padding: 10%;
 }
 
 .about-image img {
     height: 100%;
     width: 100%;
+    border-radius: 50%;
 }
 
 .projects-section {
     position: relative;
     display: flex;
    flex-direction: column;
+   padding: 5%;
 }
 
 .card {
