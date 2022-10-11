@@ -135,7 +135,7 @@ h3 {
 .about-section {
     display: flex;
     flex-direction: row;
-    margin: 0 10%;
+    margin: 0 12%;
 }
 
 .about-text {
@@ -258,6 +258,7 @@ flex: 1;
     
     /******** HEADER mobile **********/    
     #navbar {
+        position: fixed;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -266,6 +267,9 @@ flex: 1;
         margin: 0 auto;
         padding-left: 0;
         height: max-content;
+        width: 100%;
+        background-color: white;
+        z-index: 120;
       }
 
       .nav-container {
@@ -302,6 +306,7 @@ flex: 1;
         text-align: left;
         padding-left: 20px;
         cursor: pointer;
+        margin-top: 10px;
       }
       
       .fa-times {
@@ -336,70 +341,58 @@ footer {
 /******** MAIN mobile **********/  
 .section-one {
     display: flex;
+    flex-direction: column;
 }
 
 .welcome-image {
-    flex: 60%;
+    flex: 70%;
 }
 
+
 .background-homepage {
-    background-image: url(../images/309295836_1164279214164100_3629959367239869499_n.jpg);
+    position:relative;
     background-size: cover;
-    background-position:center;
+    background-position: 50%;
     top: 0;
     right: 0;
     bottom: 0;
     clip-path: none;
-    height: 40em;
+    min-height: 30em;
 }
 
 .welcome-text {
-    flex: 40%;
-    margin-left: 10%;
-    margin-top: 8%;
+    flex: 30%;
+    display: inline-block;
+    position: absolute;
+    z-index: 109;
+    margin: 30% 10% 0;
+    padding: 10%;
+   background-color: rgba(255, 255, 255, 0.754);
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+   border-radius: 15px 50px; 
 }
 
 .welcome-text p {
     display: inline-block;
-    color: #163832;
-    font-size: 20px;
+    color:#163832;
+    font-size: 18px;
 }
 
 h1 {
-    color: #163832;
+    color:#163832;
+    text-align: center;
 }
 
-.welcome-h1,
+.welcome-h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
 .portfolio-h1 {
-    display: none;
-}
-
-.welcome-text {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.765);
-    opacity: 100%;
-    flex: 1;
-    margin-left: 0;
-    margin-top: 30%;
-}
-
-
-
-.welcome-text img {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    float: right;
-    padding-bottom: 20px;
-    padding-right: 10px;
-}
-
-.welcome-text p {
-    position: relative;
-    display: inline;
-    color: #163832;
-    font-size: 18px;
-    padding-left: 5%;
+    font-size: 20px;
+    padding-bottom: 3%;
+    text-align: center;
 }
 
 
