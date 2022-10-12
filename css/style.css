@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Noto Sans JP', sans-serif, Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -107,6 +107,7 @@ footer {
 
 h1 {
     color: #163832;
+    font-weight: 700;
 }
 
 .welcome-h1 {

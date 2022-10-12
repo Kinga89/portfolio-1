@@ -1,3 +1,5 @@
+document.title = "Kinga Kot | Portfolio";
+
 /*SCROLLING TO SPECIFIC PAGE SECTION*/
 const about = document.querySelector("#about");
 about.addEventListener("click", () => {
