@@ -10,6 +10,7 @@ This is my portoflio containg all the projects I have built during my first year
 ## Description
 
 One page portfolio site that contains 3 biggest projects I have built during my first year of studies. It also includes information about programming languages skills, design tools I have experience in and other relevant skills that are important to work as a frontend developer.
+In projects section each project includes scrolling website animation which activates by hovering over the thumbnail.
 
 ## Built With
 
@@ -49,6 +50,7 @@ gh repo clone Kinga89/portfolio-1
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Kinga89&style=flat-square&color=blue" alt=""/>
 </div>
+
 
 
 
