@@ -8,20 +8,16 @@
 This is my portoflio containg all the projects I have built during my first year of front-end development study.
 
 ##Description
-One page portfolio site that contains 3 biggest projects I have built during my first year of studies. It also includes information about my skills in programming, design and other relevant skills that are important to work as a frontend developer. 
- 
+One page portfolio site that contains 3 biggest projects I have built during my first year of studies. It also includes information about my skills in programming, design and other relevant skills that are important to work as a frontend developer.
 
+## Built With
 
-##Built With
 - HTML5
 - CSS
 - Javascript
 
-
-
-##Getting Started
-Project can be accessed through following repository: 
-
+## Getting Started
+Project can be accessed through following repository:
 
 ```
 gh repo clone Kinga89/portfolio-1
@@ -38,8 +34,6 @@ gh repo clone Kinga89/portfolio-1
  </a>
 </div>
 
-
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Kinga89&style=flat-square&color=blue" alt=""/>
 </div>
-
