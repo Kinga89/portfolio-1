@@ -1,8 +1,8 @@
 # Kinga Kot | Portfolio
 
 <div id="images">
-<img src="../images/portfolio.png" width="400" height="200"/>
-<img src="../images/portfolio2.png" width="400" height="200"/>
+<img src="images/portfolio.png" width="400" height="200"/>
+<img src="images/portfolio2.png" width="400" height="200"/>
 </div>
 
 This is my portoflio containg all the projects I have built during my first year of front-end development study.
