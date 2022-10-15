@@ -25,6 +25,15 @@ Project can be accessed through following repository:
 gh repo clone Kinga89/portfolio-1
 ```
 
+## Acknowledgments
+1.	How to create irregular shapes with CSS:
+https://www.youtube.com/watch?v=QY7Rj8aZcZk 
+2.	CSS clip path maker: https://bennettfeely.com/clippy/ 
+3.	Icons from CMS and languages section:
+https://devicon.dev 
+4.	Icons from design section: https://www.flaticon.com/search?word=illustrator&order_by=4
+5.	How to create video play on mouse hover: https://www.youtube.com/watch?v=dx4oAxaR1As 
+
 ---
 
 <div id="social" align="center">
@@ -39,3 +48,6 @@ gh repo clone Kinga89/portfolio-1
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Kinga89&style=flat-square&color=blue" alt=""/>
 </div>
+
+
+
