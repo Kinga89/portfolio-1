@@ -1,16 +1,15 @@
 # Kinga Kot | Portfolio
 
+This is my portoflio containg all the projects I have built during my first year of front-end development study.
+
 <div id="images">
 <img src="images/portfolio.png" width="400" height="200"/>
 <img src="images/portfolio2.png" width="400" height="200"/>
 </div>
 
-This is my portoflio containg all the projects I have built during my first year of front-end development study.
-
 ## Description
 
-One page portfolio site that contains 3 biggest projects I have built during my first year of studies. It also includes information about my skills in programming, design and other relevant skills that are important to work as a frontend developer.
-
+One page portfolio site that contains 3 biggest projects I have built during my first year of studies. It also includes information about programming languages skills, design tools I have experience in and other relevant skills that are important to work as a frontend developer.
 
 ## Built With
 
@@ -19,20 +18,22 @@ One page portfolio site that contains 3 biggest projects I have built during my 
 - Javascript
 
 ## Getting Started
+
 Project can be accessed through following repository:
 
 ```
 gh repo clone Kinga89/portfolio-1
 ```
 
-## Acknowledgments
-1.	How to create irregular shapes with CSS:
-https://www.youtube.com/watch?v=QY7Rj8aZcZk 
-2.	CSS clip path maker: https://bennettfeely.com/clippy/ 
-3.	Icons from CMS and languages section:
-https://devicon.dev 
-4.	Icons from design section: https://www.flaticon.com/search?word=illustrator&order_by=4
-5.	How to create video play on mouse hover: https://www.youtube.com/watch?v=dx4oAxaR1As 
+## References
+
+1. How to create irregular shapes with CSS:
+   https://www.youtube.com/watch?v=QY7Rj8aZcZk
+2. CSS clip path maker: https://bennettfeely.com/clippy/
+3. Icons from CMS and languages section:
+   https://devicon.dev
+4. Icons from design section: https://www.flaticon.com/search?word=illustrator&order_by=4
+5. How to create video play on mouse hover: https://www.youtube.com/watch?v=dx4oAxaR1As
 
 ---
 
