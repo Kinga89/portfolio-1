@@ -1,8 +1,8 @@
 # Kinga Kot | Portfolio
 
 <div id="images">
-<img src="../images/portfolio.png" width="400" height="200"/>
-<img src="../images/portfolio2.png" width="400" height="200"/>
+<img src="images/portfolio.png" width="400" height="200"/>
+<img src="images/portfolio2.png" width="400" height="200"/>
 </div>
 
 This is my portoflio containg all the projects I have built during my first year of front-end development study.
@@ -19,10 +19,6 @@ One page portfolio site that contains 3 biggest projects I have built during my 
 - Javascript
 
 ## Getting Started
-<<<<<<< HEAD
-
-=======
->>>>>>> 0e3f0a694b88d0a0b4e2bdc470d2cef870538773
 Project can be accessed through following repository:
 
 ```
