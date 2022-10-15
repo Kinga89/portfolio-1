@@ -1,40 +1,30 @@
 # Kinga Kot | Portfolio
 
 <div id="images">
-<img src="images/portfolio.png" width="400" height="200"/>
-<img src="images/portfolio2.png" width="400" height="200"/>
+<img src="../images/portfolio.png" width="400" height="200"/>
+<img src="../images/portfolio2.png" width="400" height="200"/>
 </div>
 
 This is my portoflio containg all the projects I have built during my first year of front-end development study.
 
 ##Description
-An interactive website for children´s science museum called Community Science Museum. Site was created for the purpose of semester project. It´s core target audience is primary and middle school children and families with young children. The goal was to create a website that was informative and engaging, but also encouraging for the viewers to visit the museum itself. 
-Media assets have been provided.
-
-<h3>Site architecture</h3>
-<ul>
-<li>Home</li>
-<li>Exhibitions </li>
-<li>Visit</li>
-<li>Get involved</li>
-<li>Donate</li>
-</ul>
+One page portfolio site that contains 3 biggest projects I have built during my first year of studies. It also includes information about my skills in programming, design and other relevant skills that are important to work as a frontend developer. 
+ 
 
 
-<h2>Built With</h2> 
-<ul>
-<li>HTML5</li>
-<li>CSS</li>
-</ul>
+##Built With
+- HTML5
+- CSS
+- Javascript
 
 
 
-<h2>Getting Started</h2> 
+##Getting Started
 Project can be accessed through following repository: 
 
 
 ```
-git clone Kinga89/Semester-Project-1
+gh repo clone Kinga89/portfolio-1
 ```
 
 ---
