@@ -1,15 +1,15 @@
-# portfolio-1
-
-<h1>Kinga Kot | Portfolio</h1>
+# Kinga Kot | Portfolio
 
 <div id="images">
 <img src="images/portfolio.png" width="400" height="200"/>
 <img src="images/portfolio2.png" width="400" height="200"/>
 </div>
 
-<h2>Description</h2>
-<p>An interactive website for children´s science museum called Community Science Museum. Site was created for the purpose of semester project. It´s core target audience is primary and middle school children and families with young children. The goal was to create a website that was informative and engaging, but also encouraging for the viewers to visit the museum itself. 
-Media assets have been provided</p>
+This is my portoflio containg all the projects I have built during my first year of front-end development study.
+
+##Description
+An interactive website for children´s science museum called Community Science Museum. Site was created for the purpose of semester project. It´s core target audience is primary and middle school children and families with young children. The goal was to create a website that was informative and engaging, but also encouraging for the viewers to visit the museum itself. 
+Media assets have been provided.
 
 <h3>Site architecture</h3>
 <ul>
